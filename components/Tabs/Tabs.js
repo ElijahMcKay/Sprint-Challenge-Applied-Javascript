@@ -31,7 +31,7 @@ class TabLink {
 
     // Select all elements with the .tab class on them
     const tabs = document.querySelectorAll('.tab');
-    
+     
     // Iterate through the NodeList removing the .active-tab class from each element
     tabs.forEach(function(activeTab){
       if(activeTab.classList.contains('active-tab')){
